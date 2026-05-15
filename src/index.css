@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-cream-100 text-ink font-sans antialiased;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  h1, h2, h3 { font-family: 'Source Serif 4', 'Noto Serif SC', ui-serif, Georgia, serif; @apply text-ink; }
+  /* Selection */
+  ::selection { @apply bg-clay text-cream-100; }
+}
+
+@layer components {
+  .container-wide { @apply max-w-wide mx-auto px-6 md:px-10; }
+  .container-prose { @apply max-w-prose mx-auto px-6 md:px-10; }
+
+  .btn {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium rounded transition-colors;
+  }
+  .btn-primary { @apply bg-ink text-cream-100 hover:bg-clay; }
+  .btn-ghost   { @apply text-ink border border-ink hover:bg-ink hover:text-cream-100; }
+  .btn-link    { @apply text-ink border-b border-ink hover:text-clay hover:border-clay rounded-none px-0 py-1; }
+
+  .card {
+    @apply block bg-cream-50 border border-ink-line p-6 rounded transition-all;
+    @apply hover:border-ink hover:-translate-y-0.5;
+  }
+
+  .pill {
+    @apply inline-flex items-center px-3 py-1 text-xs uppercase tracking-wider
+           border border-ink-line rounded-full text-ink-soft;
+  }
+  .pill-active { @apply bg-ink text-cream-100 border-ink; }
+
+  .eyebrow {
+    @apply inline-block text-xs uppercase tracking-[0.18em] text-clay font-medium;
+  }
+
+  /* Markdown prose */
+  .prose-skill {
+    @apply text-ink-soft leading-relaxed;
+  }
+  .prose-skill h1 { @apply text-4xl md:text-5xl font-serif font-medium text-ink mb-6 mt-12; line-height: 1.1; }
+  .prose-skill h2 { @apply text-2xl md:text-3xl font-serif font-medium text-ink mt-12 mb-4; line-height: 1.2; }
+  .prose-skill h3 { @apply text-xl font-serif font-medium text-ink mt-8 mb-3; }
+  .prose-skill h4 { @apply text-lg font-sans font-medium text-ink mt-6 mb-2; }
+  .prose-skill p  { @apply my-4; line-height: 1.75; }
+  .prose-skill a  { @apply text-ink underline decoration-ink-line underline-offset-4 hover:text-clay hover:decoration-clay; }
+  .prose-skill ul { @apply my-4 pl-6 list-disc; }
+  .prose-skill ol { @apply my-4 pl-6 list-decimal; }
+  .prose-skill li { @apply my-1.5; }
+  .prose-skill code {
+    @apply font-mono text-sm bg-cream-200 px-1.5 py-0.5 rounded;
+  }
+  .prose-skill pre {
+    @apply bg-ink text-cream-100 p-4 rounded-lg overflow-x-auto my-6 text-sm;
+  }
+  .prose-skill pre code { @apply bg-transparent text-cream-100 p-0; }
+  .prose-skill blockquote {
+    @apply border-l-2 border-clay pl-4 italic text-ink-soft my-6;
+  }
+  .prose-skill table { @apply w-full my-6 text-sm; }
+  .prose-skill th, .prose-skill td {
+    @apply text-left p-3 border-b border-ink-line;
+  }
+  .prose-skill th { @apply font-medium text-ink text-xs uppercase tracking-wider; }
+  .prose-skill hr { @apply my-12 border-ink-line; }
+  .prose-skill strong { @apply font-medium text-ink; }
+  .prose-skill img { @apply rounded my-6; }
+}

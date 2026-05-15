@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "slug": "ecommerce-brand",
+      "name": "电商品牌网站",
+      "tagline": "从品牌发现到上线",
+      "description": "重点分类。覆盖品牌发现、原型、识别、视觉、文案、Shopify/Next.js 实现的完整 skill 集合。",
+      "icon": "🛍️",
+      "featured": true
+    },
+    {
+      "slug": "content-creation",
+      "name": "内容创作",
+      "tagline": "写作、策略、再利用",
+      "description": "内容战略、长文框架、落地页文案、AI 协作、再利用、迁移、刷新等全链路 skill。",
+      "icon": "✍️",
+      "featured": false
+    },
+    {
+      "slug": "seo",
+      "name": "SEO",
+      "tagline": "关键词到 AEO/GEO",
+      "description": "On-page、技术 SEO、关键词研究、内容审计、外链审计、AEO / GEO,以及面向 AI 搜索的完整审计套件。",
+      "icon": "🔎",
+      "featured": false
+    },
+    {
+      "slug": "design",
+      "name": "设计",
+      "tagline": "系统、规范、IA",
+      "description": "设计系统、design token、可访问性、品牌视觉规范、信息架构、国际化、媒体资产管理。",
+      "icon": "🎨",
+      "featured": false
+    },
+    {
+      "slug": "development",
+      "name": "开发",
+      "tagline": "工程实现 skill",
+      "description": "前端组件、性能、CI/CD、可观测性、安全基线、特性开关、实验平台、数据仓库工程范式。",
+      "icon": "⌨️",
+      "featured": false
+    },
+    {
+      "slug": "marketing",
+      "name": "营销",
+      "tagline": "增长、付费、分发",
+      "description": "付费投放、邮件序列、CRO、引流诱饵、Beta 项目、发布手册、可达性、归因。",
+      "icon": "📣",
+      "featured": false
+    },
+    {
+      "slug": "operations",
+      "name": "运营",
+      "tagline": "团队、流程、Ops",
+      "description": "团队上手、文档策略、事件响应、供应商评估、复盘、成本、域名、利益相关方沟通。",
+      "icon": "🛠️",
+      "featured": false
+    },
+    {
+      "slug": "ux-research",
+      "name": "UX 研究",
+      "tagline": "用户、旅程、JTBD",
+      "description": "用户访谈、可用性测试、客户旅程、JTBD 框架、反馈聚合、研究综合。",
+      "icon": "🔬",
+      "featured": false
+    },
+    {
+      "slug": "product-strategy",
+      "name": "产品策略",
+      "tagline": "PM、OKR、分析",
+      "description": "PM spec、roadmap、OKR、产品分析搭建、实验设计、分析战略 —— 把产品做对的方法论集合。",
+      "icon": "🎯",
+      "featured": false
+    },
+    {
+      "slug": "interactive-patterns",
+      "name": "交互模式",
+      "tagline": "表单、向导、配置器",
+      "description": "多步表单、向导、计算器、对比表、问答、配置器、聊天机器人、漏斗、预约、产品导览。",
+      "icon": "🧩",
+      "featured": false
+    }
+  ]
+}
