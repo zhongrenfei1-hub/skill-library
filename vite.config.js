@@ -21,8 +21,8 @@ export default defineConfig(({ command }) => ({
             if (id.includes('marked')) return 'vendor-marked';
             return 'vendor';
           }
-          // Bundled skills content into their own chunk so the app shell is lean
-          if (id.includes('/content/skills/')) return 'skills-content';
+          // 注意:NOT chunking content/skills together — let Rollup emit one tiny chunk per md.
+          // Each SkillPage view fetches only the markdown it needs.
         },
       },
     },

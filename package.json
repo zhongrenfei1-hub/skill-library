@@ -4,9 +4,12 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "prebuild": "node scripts/build-skill-index.mjs",
+    "predev": "node scripts/build-skill-index.mjs",
     "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite",
+    "preview": "vite preview",
+    "index": "node scripts/build-skill-index.mjs"
   },
   "dependencies": {
     "marked": "^12.0.2",

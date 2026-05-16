@@ -1,11 +1,31 @@
+import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { getSkill, getCategory, allSkills } from '../lib/content.js';
+import { getSkill, getCategory, allSkills, getSkillBody } from '../lib/content.js';
 import Markdown from '../components/Markdown.jsx';
 import SkillCard from '../components/SkillCard.jsx';
 
 export default function SkillPage() {
   const { slug } = useParams();
   const skill = getSkill(slug);
+
+  const [body, setBody] = useState('');
+  const [bodyLoading, setBodyLoading] = useState(true);
+
+  useEffect(() => {
+    if (!skill) {
+      setBodyLoading(false);
+      return;
+    }
+    setBodyLoading(true);
+    let cancelled = false;
+    getSkillBody(skill.slug).then((b) => {
+      if (!cancelled) {
+        setBody(b || '');
+        setBodyLoading(false);
+      }
+    });
+    return () => { cancelled = true; };
+  }, [skill?.slug]);
 
   if (!skill) {
     return (
@@ -24,7 +44,6 @@ export default function SkillPage() {
 
   return (
     <article>
-      {/* Header */}
       <div className="container-prose pt-16 md:pt-24 pb-12">
         <nav className="text-sm text-ink-mute mb-8 flex flex-wrap gap-2 items-center">
           <Link to="/" className="hover:text-clay">首页</Link>
@@ -52,12 +71,12 @@ export default function SkillPage() {
         </h1>
 
         {skill.description && (
-          <p className="mt-6 text-xl text-ink-soft leading-relaxed">
+          <p className="mt-6 text-xl text-ink-soft leading-relaxed whitespace-pre-line">
             {skill.description}
           </p>
         )}
 
-        {(skill.author || skill.updated) && (
+        {(skill.author || skill.updated || skill.tags.length > 0) && (
           <div className="mt-8 pt-6 border-t border-ink-line flex flex-wrap gap-6 text-sm text-ink-mute">
             {skill.author && <span>作者:<span className="text-ink">{skill.author}</span></span>}
             {skill.updated && <span>更新:<span className="text-ink">{skill.updated}</span></span>}
@@ -70,12 +89,14 @@ export default function SkillPage() {
         )}
       </div>
 
-      {/* Body */}
       <div className="container-prose pb-20">
-        <Markdown source={skill.body} />
+        {bodyLoading ? (
+          <div className="text-ink-mute italic py-12 text-center">正在加载正文...</div>
+        ) : (
+          <Markdown source={body} />
+        )}
       </div>
 
-      {/* Related */}
       {related.length > 0 && (
         <div className="border-t border-ink-line bg-cream-50">
           <div className="container-wide py-16">
