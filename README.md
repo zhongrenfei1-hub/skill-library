@@ -3,14 +3,30 @@
 [![Deploy](https://github.com/zhongrenfei1-hub/skill-library/actions/workflows/deploy.yml/badge.svg)](https://github.com/zhongrenfei1-hub/skill-library/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-按类别整理的 Claude Skills 资料库网站。Anthropic 风格的视觉,markdown 驱动的内容。
+> 一份 markdown,一个 skill;一个目录,一个分类。
+> 安静、可读、可拖、可同步。
 
 **🌐 在线访问**:https://zhongrenfei1-hub.github.io/skill-library/
 
-收录:
-- **99 份** 来自 [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) 的方法论(每份附中文注释 + 完整英文原文)
-- **3 份** 针对电商品牌网站的额外手写补充
-- **10 个** 分类:电商品牌网站(精选)、内容创作、SEO、设计、开发、营销、运营、UX 研究、产品策略、交互模式
+## 它做什么
+
+把可复用的工作流(prompt、流程、模板、清单)按类别整理成 markdown,做成一个 **既能读、又能扩展、又能本地接入** 的网站。
+
+### 核心特性
+
+- 📚 **102 份内置 skill** —— 99 份来自 [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) + 3 份电商品牌补充。每份附中文注释 + 完整英文原文。
+- 🗂️ **10 个分类** —— 电商品牌网站(精选)、内容创作、SEO、设计、开发、营销、运营、UX 研究、产品策略、交互模式
+- 📥 **本地拖拽** —— 把 `.md` 或整个目录拖到 [/local](https://zhongrenfei1-hub.github.io/skill-library/local) 即时解析预览
+- 📂 **本地文件夹联动** —— Chrome / Edge 上用 File System Access API 授权一个本地目录,任意编辑后一键重新同步
+- 🎨 **显式布局哲学** —— [/philosophy](https://zhongrenfei1-hub.github.io/skill-library/philosophy) 8 条原则解释"为什么页面长这样"
+- 🤖 **markdown-only** —— 没有 CMS、没有数据库、没有富文本编辑器。`git push` 即发布。
+
+### 设计语言
+
+参照 Anthropic Claude 的视觉:
+- 主色:`#1A1815` ink / `#F6F2E8` cream / `#CC785C` clay
+- 字体:Source Serif 4(标题)+ Inter(正文)+ Noto Serif SC(中文兜底)
+- 大量留白 · 几乎无阴影 · 4px 半径 · 数字用衬线
 
 ---
 
