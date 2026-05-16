@@ -27,6 +27,7 @@ export default function Home() {
           <div className="mt-10 flex flex-wrap gap-3">
             <Link to="/categories" className="btn btn-primary">浏览分类 →</Link>
             <Link to="/skills" className="btn btn-ghost">全部 skills</Link>
+            <Link to="/local" className="btn btn-link">📂 本地导入</Link>
           </div>
         </div>
       </section>

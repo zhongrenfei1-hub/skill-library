@@ -4,6 +4,8 @@ import { useState } from 'react';
 const navItems = [
   { to: '/categories', label: '分类' },
   { to: '/skills',     label: '全部 Skills' },
+  { to: '/local',      label: '本地' },
+  { to: '/philosophy', label: '哲学' },
   { to: '/about',      label: '关于' },
 ];
 

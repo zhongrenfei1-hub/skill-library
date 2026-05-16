@@ -19,8 +19,10 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <div className="text-xs uppercase tracking-wider text-ink-mute mb-3">关于</div>
+          <div className="text-xs uppercase tracking-wider text-ink-mute mb-3">工作区</div>
           <ul className="space-y-2 text-sm">
+            <li><Link to="/local" className="hover:text-clay">本地导入</Link></li>
+            <li><Link to="/philosophy" className="hover:text-clay">布局哲学</Link></li>
             <li><Link to="/about" className="hover:text-clay">关于</Link></li>
             <li><Link to="/about#contribute" className="hover:text-clay">如何添加 skill</Link></li>
           </ul>
