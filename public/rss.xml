@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skill Library · 技能资料库</title>
+    <link>https://zhongrenfei1-hub.github.io/skill-library</link>
+    <atom:link href="https://zhongrenfei1-hub.github.io/skill-library/rss.xml" rel="self" type="application/rss+xml" />
+    <description>按类别整理的 Claude Skills 资料库 — markdown 驱动、可拖拽、本地文件夹联动。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 16 May 2026 04:56:38 GMT</lastBuildDate>
+    <item>
+      <title>用户研究 / Ux Research</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/ux-research</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/ux-research</guid>
+      <description>5-8 个访谈 + 二手研究 + 行为分析的综合方法。</description>
+      <category>ux-research</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>JTBD 框架 / Jtbd Framing</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/jtbd-framing</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/jtbd-framing</guid>
+      <description>&quot;用户雇佣这个产品来完成什么工作&quot;的研究方法。</description>
+      <category>ux-research</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>技术 SEO / Seo Technical</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-technical</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-technical</guid>
+      <description>Sitemap、robots、canonical、hreflang、Schema 等基础设施。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>站内 SEO / Seo Onpage</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-onpage</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-onpage</guid>
+      <description>单页面优化 —— title / meta / heading / 内链 / 结构化数据。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>关键词研究 / Seo Keyword</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-keyword</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-keyword</guid>
+      <description>找值得做的关键词集合,按意图(信息 / 导航 / 交易)分桶。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AEO / GEO SEO / Seo Aeo Geo</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-aeo-geo</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-aeo-geo</guid>
+      <description>面向 AI 搜索引擎、生成式搜索的优化 —— 内容结构、引用证据、Schema。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PM Spec 撰写 / Pm Spec Writing</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/pm-spec-writing</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/pm-spec-writing</guid>
+      <description>IDEA → SPEC → BRIEF → SHIP 的产品文档流程。</description>
+      <category>product-strategy</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>事故响应 / Incident Response</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/incident-response</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/incident-response</guid>
+      <description>线上事故的分级、动员、沟通、复盘 SOP。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>功能发布手册 / Feature Launch Playbook</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/feature-launch-playbook</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/feature-launch-playbook</guid>
+      <description>单个功能 / 模块的发布全流程。</description>
+      <category>marketing</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CRO 转化优化 / Cro Optimization</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/cro-optimization</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/cro-optimization</guid>
+      <description>转化漏斗的实验 + 优化系统。</description>
+      <category>marketing</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>表单战略 / Form Strategy</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/form-strategy</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/form-strategy</guid>
+      <description>长表单 / 短表单的字段、节奏、错误处理。</description>
+      <category>interactive-patterns</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>品牌语调 / Brand Voice</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/brand-voice</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/brand-voice</guid>
+      <description>定义&quot;我们怎么说话&quot; —— 4 轴坐标、Do/Don&apos;t、实测文案样本。</description>
+      <category>ecommerce-brand</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>品牌识别系统 / Brand Identity</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/brand-identity</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/brand-identity</guid>
+      <description>把品牌核心(原型、调性、定位)落地成可执行的视觉 + 语言系统。</description>
+      <category>ecommerce-brand</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>品牌发现 / Brand Discovery</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/brand-discovery</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/brand-discovery</guid>
+      <description>动手做品牌前先回答四个问题:受众是谁、要什么、谁竞争、能站在哪里。产出受众画像、竞品矩阵、3-5 个定位领地。</description>
+      <category>ecommerce-brand</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>性能优化 / Performance Optimization</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/performance-optimization</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/performance-optimization</guid>
+      <description>Core Web Vitals 优化清单 —— LCP / CLS / INP 全覆盖。</description>
+      <category>development</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>前端组件构建 / Frontend Component Build</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/frontend-component-build</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/frontend-component-build</guid>
+      <description>组件六维 —— 解剖、变体、状态、API、a11y、测试。</description>
+      <category>development</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>特性开关 / Feature Flagging</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/feature-flagging</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/feature-flagging</guid>
+      <description>把发布与上线解耦,做安全的渐进发布。</description>
+      <category>development</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>信息架构 / Information Architecture</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/information-architecture</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/information-architecture</guid>
+      <description>站点结构、导航、URL 模式、内容层级。</description>
+      <category>design</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计系统 / Design System</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/design-system</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/design-system</guid>
+      <description>从 token 到组件库的完整搭建。</description>
+      <category>design</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计规范 / Design Standards</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/design-standards</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/design-standards</guid>
+      <description>把视觉系统变成工程可用的 token + 模式。</description>
+      <category>design</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>落地页文案 / Landing Page Copy</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/landing-page-copy</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/landing-page-copy</guid>
+      <description>单一转化目标的 7 段式文案写法 —— hero / 痛点 / 方案 / 证据 / 异议 / CTA。</description>
+      <category>content-creation</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>内容战略 / Content Strategy</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/content-strategy</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/content-strategy</guid>
+      <description>内容做什么、不做什么、对谁、目的是什么 —— 写作前的元决策。</description>
+      <category>content-creation</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>用户反馈聚合 / User Feedback Aggregation</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/user-feedback-aggregation</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/user-feedback-aggregation</guid>
+      <description>多渠道用户声音的整合 + 优先级排序。</description>
+      <category>ux-research</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>可用性测试 / Usability Testing</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/usability-testing</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/usability-testing</guid>
+      <description>让用户实际操作并观察反应的标准方法。</description>
+      <category>ux-research</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>客户旅程地图 / Journey Mapping</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/journey-mapping</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/journey-mapping</guid>
+      <description>用户在品牌 / 产品里的完整路径与触点。</description>
+      <category>ux-research</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>发现研究综合 / Discovery Research Synthesis</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/discovery-research-synthesis</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/discovery-research-synthesis</guid>
+      <description>把访谈 / 调研数据综合成可用 insight 的方法。</description>
+      <category>ux-research</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>流量诊断 / Seo Traffic Diagnosis</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-traffic-diagnosis</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-traffic-diagnosis</guid>
+      <description>流量异常或下滑时的根因分析流程。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>站点健康度审计 / Seo Site Health Audit</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-site-health-audit</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-site-health-audit</guid>
+      <description>抓取、索引、链接、速度等基线检查。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>排名追踪 / Seo Rank Tracking</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-rank-tracking</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-rank-tracking</guid>
+      <description>建立排名监控系统并解读异常。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>站外 SEO / Seo Offpage</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-offpage</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-offpage</guid>
+      <description>外链 / 品牌提及 / 引用建设 —— 站外信任信号的建立。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>关键词缺口审计 / Seo Keyword Gap Audit</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-keyword-gap-audit</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-keyword-gap-audit</guid>
+      <description>聚焦&quot;竞品在排、我们未排&quot;的关键词差异。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>内容缺口审计 / Seo Content Gap Audit</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-content-gap-audit</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-content-gap-audit</guid>
+      <description>找到竞品有 / 我们没有的高价值内容主题。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SEO 内容审计 / Seo Content Audit</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-content-audit</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-content-audit</guid>
+      <description>现有内容的表现拆解 + 翻新 / 删除 / 合并决策。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SEO 竞品分析 / Seo Competitor</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-competitor</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-competitor</guid>
+      <description>用 Ahrefs / SimilarWeb 拆解竞品的关键词 / 内容 / 外链策略。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>外链审计 / Seo Backlink Audit</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-backlink-audit</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-backlink-audit</guid>
+      <description>检查站点外链质量,识别有害链接,规划增长。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>SEO 审计编排 / Seo Audit Orchestration</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/seo-audit-orchestration</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/seo-audit-orchestration</guid>
+      <description>把多个 SEO 子审计(站点健康、内容、外链、关键词)串成一个完整流程。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>程序化 SEO / Programmatic Seo</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/programmatic-seo</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/programmatic-seo</guid>
+      <description>用数据 + 模板批量生产 SEO 页面 —— 适合长尾、地点、关键词组合页。</description>
+      <category>seo</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>路线图规划 / Roadmap Planning</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/roadmap-planning</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/roadmap-planning</guid>
+      <description>季度 / 半年 / 年度的产品路线图设计。</description>
+      <category>product-strategy</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>产品分析搭建 / Product Analytics Setup</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/product-analytics-setup</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/product-analytics-setup</guid>
+      <description>事件命名、漏斗、留存、付费等指标体系搭建。</description>
+      <category>product-strategy</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OKR 设计 / Okr Design</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/okr-design</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/okr-design</guid>
+      <description>季度 / 年度目标的拆解与对齐。</description>
+      <category>product-strategy</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>实验分析 / Experimentation Analytics</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/experimentation-analytics</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/experimentation-analytics</guid>
+      <description>A/B 测试结果的统计解读与决策。</description>
+      <category>product-strategy</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>实验设计 / Experiment Design</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/experiment-design</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/experiment-design</guid>
+      <description>假设、变量、样本量、显著性的实验设计方法。</description>
+      <category>product-strategy</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>分析战略 / Analytics Strategy</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/analytics-strategy</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/analytics-strategy</guid>
+      <description>数据驱动决策的整体战略与基础设施。</description>
+      <category>product-strategy</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>供应商评估 / Vendor Evaluation</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/vendor-evaluation</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/vendor-evaluation</guid>
+      <description>选 SaaS / 服务商的评估打分框架。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>团队上手手册 / Team Onboarding Playbook</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/team-onboarding-playbook</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/team-onboarding-playbook</guid>
+      <description>新成员第一天到第一个月的标准流程。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>利益相关方沟通 / Stakeholder Communication</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/stakeholder-communication</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/stakeholder-communication</guid>
+      <description>跨部门 / 跨级别的沟通模板。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Skill 创作流程 / Skill Creation Walkthrough</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/skill-creation-walkthrough</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/skill-creation-walkthrough</guid>
+      <description>如何写一份新的 Claude Skill —— 元 skill。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>域名战略 / Domain Strategy</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/domain-strategy</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/domain-strategy</guid>
+      <description>顶级域、子域、地域、品牌防御性注册。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>文档战略 / Documentation Strategy</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/documentation-strategy</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/documentation-strategy</guid>
+      <description>给什么写文档、按什么结构、谁维护。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>成本优化 / Cost Optimization</title>
+      <link>https://zhongrenfei1-hub.github.io/skill-library/skills/cost-optimization</link>
+      <guid isPermaLink="true">https://zhongrenfei1-hub.github.io/skill-library/skills/cost-optimization</guid>
+      <description>SaaS / 云 / 人力成本的盘查与降本路径。</description>
+      <category>operations</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

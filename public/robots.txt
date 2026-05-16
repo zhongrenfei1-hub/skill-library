@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhongrenfei1-hub.github.io/skill-library/sitemap.xml

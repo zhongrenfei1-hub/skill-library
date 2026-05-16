@@ -4,12 +4,13 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "prebuild": "node scripts/build-skill-index.mjs",
-    "predev": "node scripts/build-skill-index.mjs",
+    "prebuild": "node scripts/build-skill-index.mjs && node scripts/build-sitemap.mjs",
+    "predev": "node scripts/build-skill-index.mjs && node scripts/build-sitemap.mjs",
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "index": "node scripts/build-skill-index.mjs"
+    "index": "node scripts/build-skill-index.mjs",
+    "sitemap": "node scripts/build-sitemap.mjs"
   },
   "dependencies": {
     "marked": "^12.0.2",

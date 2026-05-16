@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { getSkill, getCategory, allSkills, getSkillBody } from '../lib/content.js';
 import Markdown from '../components/Markdown.jsx';
 import SkillCard from '../components/SkillCard.jsx';
+import TableOfContents from '../components/TableOfContents.jsx';
+import CopyButton from '../components/CopyButton.jsx';
 
 export default function SkillPage() {
   const { slug } = useParams();
@@ -10,12 +12,10 @@ export default function SkillPage() {
 
   const [body, setBody] = useState('');
   const [bodyLoading, setBodyLoading] = useState(true);
+  const articleRef = useRef(null);
 
   useEffect(() => {
-    if (!skill) {
-      setBodyLoading(false);
-      return;
-    }
+    if (!skill) { setBodyLoading(false); return; }
     setBodyLoading(true);
     let cancelled = false;
     getSkillBody(skill.slug).then((b) => {
@@ -57,7 +57,7 @@ export default function SkillPage() {
           )}
         </nav>
 
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center gap-3 mb-4 flex-wrap">
           {category && (
             <Link to={`/categories/${category.slug}`}>
               <span className="pill">{category.name}</span>
@@ -76,25 +76,40 @@ export default function SkillPage() {
           </p>
         )}
 
-        {(skill.author || skill.updated || skill.tags.length > 0) && (
-          <div className="mt-8 pt-6 border-t border-ink-line flex flex-wrap gap-6 text-sm text-ink-mute">
-            {skill.author && <span>作者:<span className="text-ink">{skill.author}</span></span>}
-            {skill.updated && <span>更新:<span className="text-ink">{skill.updated}</span></span>}
-            {skill.tags.length > 0 && (
-              <span className="flex gap-2 flex-wrap">
-                {skill.tags.map((t) => <span key={t}>#{t}</span>)}
-              </span>
+        <div className="mt-8 pt-6 border-t border-ink-line flex flex-wrap items-center gap-6 text-sm text-ink-mute">
+          {skill.author && <span>作者:<span className="text-ink">{skill.author}</span></span>}
+          {skill.updated && <span>更新:<span className="text-ink">{skill.updated}</span></span>}
+          {skill.tags.length > 0 && (
+            <span className="flex gap-2 flex-wrap">
+              {skill.tags.map((t) => <span key={t}>#{t}</span>)}
+            </span>
+          )}
+          <span className="ml-auto flex gap-2">
+            <CopyButton text={body} />
+            {skill.source && (
+              <a href={skill.source} target="_blank" rel="noreferrer" className="btn btn-ghost text-xs">
+                源 ↗
+              </a>
             )}
-          </div>
-        )}
+          </span>
+        </div>
       </div>
 
-      <div className="container-prose pb-20">
-        {bodyLoading ? (
-          <div className="text-ink-mute italic py-12 text-center">正在加载正文...</div>
-        ) : (
-          <Markdown source={body} />
-        )}
+      <div className="container-wide pb-20">
+        <div className="grid lg:grid-cols-[1fr_220px] gap-12 max-w-[1080px] mx-auto">
+          <div ref={articleRef}>
+            {bodyLoading ? (
+              <div className="text-ink-mute italic py-12 text-center">正在加载正文...</div>
+            ) : (
+              <Markdown source={body} />
+            )}
+          </div>
+          <aside className="hidden lg:block">
+            <div className="sticky top-24">
+              <TableOfContents container={articleRef.current} watch={body} />
+            </div>
+          </aside>
+        </div>
       </div>
 
       {related.length > 0 && (
