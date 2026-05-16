@@ -2,6 +2,8 @@
 
 [![Deploy](https://github.com/zhongrenfei1-hub/skill-library/actions/workflows/deploy.yml/badge.svg)](https://github.com/zhongrenfei1-hub/skill-library/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-102-CC785C)](https://zhongrenfei1-hub.github.io/skill-library/skills)
+[![Initial JS](https://img.shields.io/badge/initial%20JS-78KB%20gzip-1A1815)](https://zhongrenfei1-hub.github.io/skill-library/)
 
 > 一份 markdown,一个 skill;一个目录,一个分类。
 > 安静、可读、可拖、可同步。
@@ -18,8 +20,18 @@
 - 🗂️ **10 个分类** —— 电商品牌网站(精选)、内容创作、SEO、设计、开发、营销、运营、UX 研究、产品策略、交互模式
 - 📥 **本地拖拽** —— 把 `.md` 或整个目录拖到 [/local](https://zhongrenfei1-hub.github.io/skill-library/local) 即时解析预览
 - 📂 **本地文件夹联动** —— Chrome / Edge 上用 File System Access API 授权一个本地目录,任意编辑后一键重新同步
+- ⌘ **Cmd+K 命令面板** —— `/` 或 `⌘K` 全局搜索 skills / 分类 / 页面,键盘可达
+- 📑 **目录 ToC + 复制按钮** —— 长 skill 自带右侧粘性目录,一键复制 markdown 全文
+- 🎨 **3 个主题** —— 原色(默认)/ 羊皮(sepia)/ 夜色(dark)随时切换
+- 🗂️ **SEO 友好** —— sitemap.xml + RSS feed + robots.txt 全套自动生成
 - 🎨 **显式布局哲学** —— [/philosophy](https://zhongrenfei1-hub.github.io/skill-library/philosophy) 8 条原则解释"为什么页面长这样"
 - 🤖 **markdown-only** —— 没有 CMS、没有数据库、没有富文本编辑器。`git push` 即发布。
+
+### 性能
+
+- **首屏 JS**:~78 KB gzip(vendor-react + index + 主页)
+- **每个 skill**:~8-13 KB gzip,只在打开时按需加载
+- **预构建索引**:metadata 与 body 分离,Home / Categories / Search 无需载入正文
 
 ### 设计语言
 
@@ -27,6 +39,7 @@
 - 主色:`#1A1815` ink / `#F6F2E8` cream / `#CC785C` clay
 - 字体:Source Serif 4(标题)+ Inter(正文)+ Noto Serif SC(中文兜底)
 - 大量留白 · 几乎无阴影 · 4px 半径 · 数字用衬线
+- 主题切换:原色 / 羊皮 / 夜色 三套
 
 ---
 
