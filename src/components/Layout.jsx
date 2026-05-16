@@ -1,5 +1,6 @@
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
+import CommandPalette from './CommandPalette.jsx';
 
 export default function Layout({ children }) {
   return (
@@ -7,6 +8,7 @@ export default function Layout({ children }) {
       <Header />
       <main className="flex-1 animate-fade-in">{children}</main>
       <Footer />
+      <CommandPalette />
     </div>
   );
 }

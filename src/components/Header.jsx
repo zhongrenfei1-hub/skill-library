@@ -51,16 +51,17 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <form onSubmit={submitSearch} className="hidden md:flex items-center">
-            <input
-              type="text"
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              placeholder="搜索 skill..."
-              className="w-48 bg-transparent border-b border-ink-line focus:border-ink
-                         text-sm py-1.5 px-1 outline-none placeholder-ink-mute transition-colors"
-              aria-label="搜索"
-            />
+          <button
+            type="button"
+            onClick={() => window.dispatchEvent(new KeyboardEvent('keydown', { key: 'k', metaKey: true }))}
+            className="hidden md:inline-flex items-center gap-2 px-3 py-1.5 text-sm text-ink-mute border border-ink-line rounded hover:border-ink hover:text-ink transition-colors"
+            aria-label="打开命令面板"
+          >
+            <span>搜索</span>
+            <kbd className="font-mono text-xs">⌘K</kbd>
+          </button>
+          <form onSubmit={submitSearch} className="hidden">
+            <input value={q} onChange={(e) => setQ(e.target.value)} />
           </form>
 
           <button

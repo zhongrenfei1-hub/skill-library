@@ -90,6 +90,44 @@ zhongrenfei1-hub.github.io/skill-library/philosophy
 
 ---
 
+## Show HN draft (英文)
+
+**Title**: Show HN: A markdown-driven Claude skill library with local folder sync
+
+**Body**:
+```
+I built a static skill library for Claude (and other agent SDKs).
+The thesis: skills are essentially structured markdown; a website serving
+them should be just as boring — version-controlled files, no CMS, no admin.
+
+Stack:
+- React + Vite + Tailwind, static-deployed to GitHub Pages
+- `import.meta.glob` discovers markdown by directory
+- Pre-build script extracts frontmatter into a 100KB index for the homepage
+- Each skill body is its own lazy-loaded chunk (~8-13KB gzip)
+
+Two interaction modes I'm happy with:
+1) Drag a `.md` file or whole folder onto /local — frontmatter parsed,
+   preview rendered, never uploaded.
+2) "Open local folder" uses File System Access API. Authorize a directory
+   once, edit your markdown locally in any editor, click "re-read" to sync.
+   Browser-only, no daemon.
+
+I also wrote an explicit /philosophy page about why the layout looks the way
+it does, including "anti-patterns we refuse" (no scroll animations, no
+shop-style editor settings exposed, etc).
+
+Seeded with 99 skills from rampstackco/claude-skills with Chinese annotations
++ original methodology embedded, plus 3 hand-written for e-commerce brand
+sites.
+
+Live: https://zhongrenfei1-hub.github.io/skill-library/
+Repo: https://github.com/zhongrenfei1-hub/skill-library
+
+Curious if anyone uses File System Access API in production today and what
+gotchas you hit.
+```
+
 ## 投放策略(下一阶段)
 
 | 渠道 | 内容 | 频率 |
