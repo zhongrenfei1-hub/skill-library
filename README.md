@@ -41,6 +41,21 @@
 - 大量留白 · 几乎无阴影 · 4px 半径 · 数字用衬线
 - 主题切换:原色 / 羊皮 / 夜色 三套
 
+### 开放数据
+
+| 端点 | 用途 |
+|---|---|
+| [`/skills.json`](https://zhongrenfei1-hub.github.io/skill-library/skills.json) | 全部 102 份 skill 的元数据 JSON。给 AI agent / 自动化工具消费 |
+| [`/sitemap.xml`](https://zhongrenfei1-hub.github.io/skill-library/sitemap.xml) | 118 条 URL 的 sitemap |
+| [`/rss.xml`](https://zhongrenfei1-hub.github.io/skill-library/rss.xml) | 50 条最近 skill 的 RSS feed |
+| [`/robots.txt`](https://zhongrenfei1-hub.github.io/skill-library/robots.txt) | 抓取规则 |
+
+调用样例:
+
+```bash
+curl https://zhongrenfei1-hub.github.io/skill-library/skills.json | jq '.skills[0]'
+```
+
 ---
 
 ## 快速开始
