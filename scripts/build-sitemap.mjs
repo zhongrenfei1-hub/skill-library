@@ -84,14 +84,40 @@ Allow: /
 Sitemap: ${BASE_URL}/sitemap.xml
 `;
 
+  // ---- Public skills.json API ----
+  // metadata-only (no body) — for AI agents / external consumers
+  const apiPayload = {
+    meta: {
+      site: BASE_URL,
+      total: skills.length,
+      generated: NOW,
+      categories: cats,
+      license: 'MIT (skills text adapted from rampstackco/claude-skills, MIT)',
+    },
+    skills: skills.map((s) => ({
+      slug: s.slug,
+      title: s.title,
+      description: s.description,
+      category: s.category,
+      tags: s.tags,
+      featured: s.featured,
+      author: s.author,
+      updated: s.updated,
+      source: s.source,
+      url: `${BASE_URL}/skills/${s.slug}`,
+    })),
+  };
+
   await mkdir(PUBLIC, { recursive: true });
   await writeFile(join(PUBLIC, 'sitemap.xml'), sitemap);
   await writeFile(join(PUBLIC, 'rss.xml'), rss);
   await writeFile(join(PUBLIC, 'robots.txt'), robots);
+  await writeFile(join(PUBLIC, 'skills.json'), JSON.stringify(apiPayload, null, 2));
 
   console.log(`✓ sitemap.xml (${allUrls.length} urls)`);
   console.log(`✓ rss.xml (${Math.min(skills.length, 50)} items)`);
   console.log(`✓ robots.txt`);
+  console.log(`✓ skills.json (${skills.length} skills, public API)`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

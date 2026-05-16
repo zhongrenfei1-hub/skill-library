@@ -1,0 +1,1686 @@
+{
+  "meta": {
+    "site": "https://zhongrenfei1-hub.github.io/skill-library",
+    "total": 102,
+    "generated": "2026-05-16T05:01:04.662Z",
+    "categories": [
+      "ux-research",
+      "seo",
+      "product-strategy",
+      "operations",
+      "marketing",
+      "interactive-patterns",
+      "ecommerce-brand",
+      "development",
+      "design",
+      "content-creation"
+    ],
+    "license": "MIT (skills text adapted from rampstackco/claude-skills, MIT)"
+  },
+  "skills": [
+    {
+      "slug": "ux-research",
+      "title": "用户研究 / Ux Research",
+      "description": "5-8 个访谈 + 二手研究 + 行为分析的综合方法。",
+      "category": "ux-research",
+      "tags": [
+        "research"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/ux-research/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/ux-research"
+    },
+    {
+      "slug": "jtbd-framing",
+      "title": "JTBD 框架 / Jtbd Framing",
+      "description": "\"用户雇佣这个产品来完成什么工作\"的研究方法。",
+      "category": "ux-research",
+      "tags": [
+        "product",
+        "jtbd",
+        "framing"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/jtbd-framing/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/jtbd-framing"
+    },
+    {
+      "slug": "seo-technical",
+      "title": "技术 SEO / Seo Technical",
+      "description": "Sitemap、robots、canonical、hreflang、Schema 等基础设施。",
+      "category": "seo",
+      "tags": [
+        "seo-foundation",
+        "seo",
+        "technical"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-technical/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-technical"
+    },
+    {
+      "slug": "seo-onpage",
+      "title": "站内 SEO / Seo Onpage",
+      "description": "单页面优化 —— title / meta / heading / 内链 / 结构化数据。",
+      "category": "seo",
+      "tags": [
+        "seo-foundation",
+        "seo",
+        "onpage"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-onpage/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-onpage"
+    },
+    {
+      "slug": "seo-keyword",
+      "title": "关键词研究 / Seo Keyword",
+      "description": "找值得做的关键词集合,按意图(信息 / 导航 / 交易)分桶。",
+      "category": "seo",
+      "tags": [
+        "seo-foundation",
+        "seo",
+        "keyword"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-keyword/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-keyword"
+    },
+    {
+      "slug": "seo-aeo-geo",
+      "title": "AEO / GEO SEO / Seo Aeo Geo",
+      "description": "面向 AI 搜索引擎、生成式搜索的优化 —— 内容结构、引用证据、Schema。",
+      "category": "seo",
+      "tags": [
+        "seo-foundation",
+        "seo",
+        "aeo",
+        "geo"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-aeo-geo/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-aeo-geo"
+    },
+    {
+      "slug": "pm-spec-writing",
+      "title": "PM Spec 撰写 / Pm Spec Writing",
+      "description": "IDEA → SPEC → BRIEF → SHIP 的产品文档流程。",
+      "category": "product-strategy",
+      "tags": [
+        "product",
+        "spec",
+        "writing"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/pm-spec-writing/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/pm-spec-writing"
+    },
+    {
+      "slug": "incident-response",
+      "title": "事故响应 / Incident Response",
+      "description": "线上事故的分级、动员、沟通、复盘 SOP。",
+      "category": "operations",
+      "tags": [
+        "operations",
+        "incident",
+        "response"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/incident-response/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/incident-response"
+    },
+    {
+      "slug": "feature-launch-playbook",
+      "title": "功能发布手册 / Feature Launch Playbook",
+      "description": "单个功能 / 模块的发布全流程。",
+      "category": "marketing",
+      "tags": [
+        "product",
+        "feature",
+        "launch",
+        "playbook"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/feature-launch-playbook/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/feature-launch-playbook"
+    },
+    {
+      "slug": "cro-optimization",
+      "title": "CRO 转化优化 / Cro Optimization",
+      "description": "转化漏斗的实验 + 优化系统。",
+      "category": "marketing",
+      "tags": [
+        "growth",
+        "cro",
+        "optimization"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/cro-optimization/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/cro-optimization"
+    },
+    {
+      "slug": "form-strategy",
+      "title": "表单战略 / Form Strategy",
+      "description": "长表单 / 短表单的字段、节奏、错误处理。",
+      "category": "interactive-patterns",
+      "tags": [
+        "cross-cutting",
+        "form",
+        "strategy"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/form-strategy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/form-strategy"
+    },
+    {
+      "slug": "brand-voice",
+      "title": "品牌语调 / Brand Voice",
+      "description": "定义\"我们怎么说话\" —— 4 轴坐标、Do/Don't、实测文案样本。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "brand",
+        "voice"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/brand-voice/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/brand-voice"
+    },
+    {
+      "slug": "brand-identity",
+      "title": "品牌识别系统 / Brand Identity",
+      "description": "把品牌核心(原型、调性、定位)落地成可执行的视觉 + 语言系统。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "brand",
+        "identity"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/brand-identity/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/brand-identity"
+    },
+    {
+      "slug": "brand-discovery",
+      "title": "品牌发现 / Brand Discovery",
+      "description": "动手做品牌前先回答四个问题:受众是谁、要什么、谁竞争、能站在哪里。产出受众画像、竞品矩阵、3-5 个定位领地。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "strategy-and-discovery",
+        "brand",
+        "discovery"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/brand-discovery/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/brand-discovery"
+    },
+    {
+      "slug": "performance-optimization",
+      "title": "性能优化 / Performance Optimization",
+      "description": "Core Web Vitals 优化清单 —— LCP / CLS / INP 全覆盖。",
+      "category": "development",
+      "tags": [
+        "development",
+        "performance",
+        "optimization"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/performance-optimization/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/performance-optimization"
+    },
+    {
+      "slug": "frontend-component-build",
+      "title": "前端组件构建 / Frontend Component Build",
+      "description": "组件六维 —— 解剖、变体、状态、API、a11y、测试。",
+      "category": "development",
+      "tags": [
+        "development",
+        "frontend",
+        "component",
+        "build"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/frontend-component-build/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/frontend-component-build"
+    },
+    {
+      "slug": "feature-flagging",
+      "title": "特性开关 / Feature Flagging",
+      "description": "把发布与上线解耦,做安全的渐进发布。",
+      "category": "development",
+      "tags": [
+        "product",
+        "feature",
+        "flagging"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/feature-flagging/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/feature-flagging"
+    },
+    {
+      "slug": "information-architecture",
+      "title": "信息架构 / Information Architecture",
+      "description": "站点结构、导航、URL 模式、内容层级。",
+      "category": "design",
+      "tags": [
+        "strategy-and-discovery",
+        "information",
+        "architecture"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/information-architecture/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/information-architecture"
+    },
+    {
+      "slug": "design-system",
+      "title": "设计系统 / Design System",
+      "description": "从 token 到组件库的完整搭建。",
+      "category": "design",
+      "tags": [
+        "design",
+        "system"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/design-system/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/design-system"
+    },
+    {
+      "slug": "design-standards",
+      "title": "设计规范 / Design Standards",
+      "description": "把视觉系统变成工程可用的 token + 模式。",
+      "category": "design",
+      "tags": [
+        "design",
+        "standards"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/design-standards/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/design-standards"
+    },
+    {
+      "slug": "landing-page-copy",
+      "title": "落地页文案 / Landing Page Copy",
+      "description": "单一转化目标的 7 段式文案写法 —— hero / 痛点 / 方案 / 证据 / 异议 / CTA。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "landing",
+        "page",
+        "copy"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/landing-page-copy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/landing-page-copy"
+    },
+    {
+      "slug": "content-strategy",
+      "title": "内容战略 / Content Strategy",
+      "description": "内容做什么、不做什么、对谁、目的是什么 —— 写作前的元决策。",
+      "category": "content-creation",
+      "tags": [
+        "strategy-and-discovery",
+        "content",
+        "strategy"
+      ],
+      "featured": true,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-strategy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/content-strategy"
+    },
+    {
+      "slug": "user-feedback-aggregation",
+      "title": "用户反馈聚合 / User Feedback Aggregation",
+      "description": "多渠道用户声音的整合 + 优先级排序。",
+      "category": "ux-research",
+      "tags": [
+        "research",
+        "user",
+        "feedback",
+        "aggregation"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/user-feedback-aggregation/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/user-feedback-aggregation"
+    },
+    {
+      "slug": "usability-testing",
+      "title": "可用性测试 / Usability Testing",
+      "description": "让用户实际操作并观察反应的标准方法。",
+      "category": "ux-research",
+      "tags": [
+        "research",
+        "usability",
+        "testing"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/usability-testing/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/usability-testing"
+    },
+    {
+      "slug": "journey-mapping",
+      "title": "客户旅程地图 / Journey Mapping",
+      "description": "用户在品牌 / 产品里的完整路径与触点。",
+      "category": "ux-research",
+      "tags": [
+        "research",
+        "journey",
+        "mapping"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/journey-mapping/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/journey-mapping"
+    },
+    {
+      "slug": "discovery-research-synthesis",
+      "title": "发现研究综合 / Discovery Research Synthesis",
+      "description": "把访谈 / 调研数据综合成可用 insight 的方法。",
+      "category": "ux-research",
+      "tags": [
+        "research",
+        "discovery",
+        "synthesis"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/discovery-research-synthesis/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/discovery-research-synthesis"
+    },
+    {
+      "slug": "seo-traffic-diagnosis",
+      "title": "流量诊断 / Seo Traffic Diagnosis",
+      "description": "流量异常或下滑时的根因分析流程。",
+      "category": "seo",
+      "tags": [
+        "seo-audit-suite",
+        "seo",
+        "traffic",
+        "diagnosis"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-traffic-diagnosis/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-traffic-diagnosis"
+    },
+    {
+      "slug": "seo-site-health-audit",
+      "title": "站点健康度审计 / Seo Site Health Audit",
+      "description": "抓取、索引、链接、速度等基线检查。",
+      "category": "seo",
+      "tags": [
+        "seo-audit-suite",
+        "seo",
+        "site",
+        "health",
+        "audit"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-site-health-audit/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-site-health-audit"
+    },
+    {
+      "slug": "seo-rank-tracking",
+      "title": "排名追踪 / Seo Rank Tracking",
+      "description": "建立排名监控系统并解读异常。",
+      "category": "seo",
+      "tags": [
+        "seo-audit-suite",
+        "seo",
+        "rank",
+        "tracking"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-rank-tracking/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-rank-tracking"
+    },
+    {
+      "slug": "seo-offpage",
+      "title": "站外 SEO / Seo Offpage",
+      "description": "外链 / 品牌提及 / 引用建设 —— 站外信任信号的建立。",
+      "category": "seo",
+      "tags": [
+        "seo-foundation",
+        "seo",
+        "offpage"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-offpage/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-offpage"
+    },
+    {
+      "slug": "seo-keyword-gap-audit",
+      "title": "关键词缺口审计 / Seo Keyword Gap Audit",
+      "description": "聚焦\"竞品在排、我们未排\"的关键词差异。",
+      "category": "seo",
+      "tags": [
+        "seo-audit-suite",
+        "seo",
+        "keyword",
+        "gap",
+        "audit"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-keyword-gap-audit/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-keyword-gap-audit"
+    },
+    {
+      "slug": "seo-content-gap-audit",
+      "title": "内容缺口审计 / Seo Content Gap Audit",
+      "description": "找到竞品有 / 我们没有的高价值内容主题。",
+      "category": "seo",
+      "tags": [
+        "seo-audit-suite",
+        "seo",
+        "content",
+        "gap",
+        "audit"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-content-gap-audit/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-content-gap-audit"
+    },
+    {
+      "slug": "seo-content-audit",
+      "title": "SEO 内容审计 / Seo Content Audit",
+      "description": "现有内容的表现拆解 + 翻新 / 删除 / 合并决策。",
+      "category": "seo",
+      "tags": [
+        "seo-foundation",
+        "seo",
+        "content",
+        "audit"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-content-audit/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-content-audit"
+    },
+    {
+      "slug": "seo-competitor",
+      "title": "SEO 竞品分析 / Seo Competitor",
+      "description": "用 Ahrefs / SimilarWeb 拆解竞品的关键词 / 内容 / 外链策略。",
+      "category": "seo",
+      "tags": [
+        "seo-foundation",
+        "seo",
+        "competitor"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-competitor/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-competitor"
+    },
+    {
+      "slug": "seo-backlink-audit",
+      "title": "外链审计 / Seo Backlink Audit",
+      "description": "检查站点外链质量,识别有害链接,规划增长。",
+      "category": "seo",
+      "tags": [
+        "seo-audit-suite",
+        "seo",
+        "backlink",
+        "audit"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-backlink-audit/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-backlink-audit"
+    },
+    {
+      "slug": "seo-audit-orchestration",
+      "title": "SEO 审计编排 / Seo Audit Orchestration",
+      "description": "把多个 SEO 子审计(站点健康、内容、外链、关键词)串成一个完整流程。",
+      "category": "seo",
+      "tags": [
+        "seo-audit-suite",
+        "seo",
+        "audit",
+        "orchestration"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/seo-audit-orchestration/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/seo-audit-orchestration"
+    },
+    {
+      "slug": "programmatic-seo",
+      "title": "程序化 SEO / Programmatic Seo",
+      "description": "用数据 + 模板批量生产 SEO 页面 —— 适合长尾、地点、关键词组合页。",
+      "category": "seo",
+      "tags": [
+        "content",
+        "programmatic",
+        "seo"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/programmatic-seo/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/programmatic-seo"
+    },
+    {
+      "slug": "roadmap-planning",
+      "title": "路线图规划 / Roadmap Planning",
+      "description": "季度 / 半年 / 年度的产品路线图设计。",
+      "category": "product-strategy",
+      "tags": [
+        "product",
+        "roadmap",
+        "planning"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/roadmap-planning/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/roadmap-planning"
+    },
+    {
+      "slug": "product-analytics-setup",
+      "title": "产品分析搭建 / Product Analytics Setup",
+      "description": "事件命名、漏斗、留存、付费等指标体系搭建。",
+      "category": "product-strategy",
+      "tags": [
+        "product",
+        "analytics",
+        "setup"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/product-analytics-setup/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/product-analytics-setup"
+    },
+    {
+      "slug": "okr-design",
+      "title": "OKR 设计 / Okr Design",
+      "description": "季度 / 年度目标的拆解与对齐。",
+      "category": "product-strategy",
+      "tags": [
+        "product",
+        "okr",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/okr-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/okr-design"
+    },
+    {
+      "slug": "experimentation-analytics",
+      "title": "实验分析 / Experimentation Analytics",
+      "description": "A/B 测试结果的统计解读与决策。",
+      "category": "product-strategy",
+      "tags": [
+        "product",
+        "experimentation",
+        "analytics"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/experimentation-analytics/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/experimentation-analytics"
+    },
+    {
+      "slug": "experiment-design",
+      "title": "实验设计 / Experiment Design",
+      "description": "假设、变量、样本量、显著性的实验设计方法。",
+      "category": "product-strategy",
+      "tags": [
+        "product",
+        "experiment",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/experiment-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/experiment-design"
+    },
+    {
+      "slug": "analytics-strategy",
+      "title": "分析战略 / Analytics Strategy",
+      "description": "数据驱动决策的整体战略与基础设施。",
+      "category": "product-strategy",
+      "tags": [
+        "growth",
+        "analytics",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/analytics-strategy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/analytics-strategy"
+    },
+    {
+      "slug": "vendor-evaluation",
+      "title": "供应商评估 / Vendor Evaluation",
+      "description": "选 SaaS / 服务商的评估打分框架。",
+      "category": "operations",
+      "tags": [
+        "process-and-team",
+        "vendor",
+        "evaluation"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/vendor-evaluation/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/vendor-evaluation"
+    },
+    {
+      "slug": "team-onboarding-playbook",
+      "title": "团队上手手册 / Team Onboarding Playbook",
+      "description": "新成员第一天到第一个月的标准流程。",
+      "category": "operations",
+      "tags": [
+        "process-and-team",
+        "team",
+        "onboarding",
+        "playbook"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/team-onboarding-playbook/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/team-onboarding-playbook"
+    },
+    {
+      "slug": "stakeholder-communication",
+      "title": "利益相关方沟通 / Stakeholder Communication",
+      "description": "跨部门 / 跨级别的沟通模板。",
+      "category": "operations",
+      "tags": [
+        "process-and-team",
+        "stakeholder",
+        "communication"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/stakeholder-communication/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/stakeholder-communication"
+    },
+    {
+      "slug": "skill-creation-walkthrough",
+      "title": "Skill 创作流程 / Skill Creation Walkthrough",
+      "description": "如何写一份新的 Claude Skill —— 元 skill。",
+      "category": "operations",
+      "tags": [
+        "process-and-team",
+        "skill",
+        "creation",
+        "walkthrough"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/skill-creation-walkthrough/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/skill-creation-walkthrough"
+    },
+    {
+      "slug": "domain-strategy",
+      "title": "域名战略 / Domain Strategy",
+      "description": "顶级域、子域、地域、品牌防御性注册。",
+      "category": "operations",
+      "tags": [
+        "operations",
+        "domain",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/domain-strategy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/domain-strategy"
+    },
+    {
+      "slug": "documentation-strategy",
+      "title": "文档战略 / Documentation Strategy",
+      "description": "给什么写文档、按什么结构、谁维护。",
+      "category": "operations",
+      "tags": [
+        "process-and-team",
+        "documentation",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/documentation-strategy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/documentation-strategy"
+    },
+    {
+      "slug": "cost-optimization",
+      "title": "成本优化 / Cost Optimization",
+      "description": "SaaS / 云 / 人力成本的盘查与降本路径。",
+      "category": "operations",
+      "tags": [
+        "cross-cutting",
+        "cost",
+        "optimization"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/cost-optimization/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/cost-optimization"
+    },
+    {
+      "slug": "after-action-report",
+      "title": "复盘报告 / After Action Report",
+      "description": "项目 / 事件结束后的事实陈述 + 教训 + 改进。",
+      "category": "operations",
+      "tags": [
+        "operations",
+        "after",
+        "action",
+        "report"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/after-action-report/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/after-action-report"
+    },
+    {
+      "slug": "paid-media-strategy",
+      "title": "付费媒体战略 / Paid Media Strategy",
+      "description": "渠道选择、预算分配、归因、迭代节奏。",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "paid",
+        "media",
+        "strategy"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/paid-media-strategy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/paid-media-strategy"
+    },
+    {
+      "slug": "lead-magnet-design",
+      "title": "引流诱饵设计 / Lead Magnet Design",
+      "description": "表单 / 邮件订阅前的\"换价值\"诱饵设计。",
+      "category": "marketing",
+      "tags": [
+        "growth-tooling",
+        "lead",
+        "magnet",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/lead-magnet-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/lead-magnet-design"
+    },
+    {
+      "slug": "launch-runbook",
+      "title": "整体发布 Runbook / Launch Runbook",
+      "description": "重大发布前的检查清单 + 上线分钟级时间表。",
+      "category": "marketing",
+      "tags": [
+        "operations",
+        "launch",
+        "runbook"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/launch-runbook/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/launch-runbook"
+    },
+    {
+      "slug": "email-sequences",
+      "title": "邮件序列 / Email Sequences",
+      "description": "欢迎 / 复购 / 流失 / Newsletter 的内容 + 节奏。",
+      "category": "marketing",
+      "tags": [
+        "content",
+        "email",
+        "sequences"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/email-sequences/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/email-sequences"
+    },
+    {
+      "slug": "email-deliverability",
+      "title": "邮件可达性 / Email Deliverability",
+      "description": "SPF / DKIM / DMARC / 信誉评分 / 退订率 —— 把邮件送进收件箱。",
+      "category": "marketing",
+      "tags": [
+        "operations",
+        "email",
+        "deliverability"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/email-deliverability/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/email-deliverability"
+    },
+    {
+      "slug": "beta-program-management",
+      "title": "Beta 项目管理 / Beta Program Management",
+      "description": "公开 / 邀请制内测的流程 —— 招募、节奏、反馈处理。",
+      "category": "marketing",
+      "tags": [
+        "product",
+        "beta",
+        "program",
+        "management"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/beta-program-management/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/beta-program-management"
+    },
+    {
+      "slug": "ads-performance-analytics",
+      "title": "广告绩效分析 / Ads Performance Analytics",
+      "description": "多渠道广告数据归集 + 决策框架。",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "ads",
+        "performance",
+        "analytics"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/ads-performance-analytics/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/ads-performance-analytics"
+    },
+    {
+      "slug": "ads-creative-development",
+      "title": "广告创意开发 / Ads Creative Development",
+      "description": "付费广告的视觉 / 文案 / 形式开发流程。",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "ads",
+        "creative",
+        "development"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/ads-creative-development/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/ads-creative-development"
+    },
+    {
+      "slug": "upgrade-flow-design",
+      "title": "升级流程 / Upgrade Flow Design",
+      "description": "从免费 / 低版本到付费 / 高版本的转化交互。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "upgrade",
+        "flow",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/upgrade-flow-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/upgrade-flow-design"
+    },
+    {
+      "slug": "scheduler-and-booking-design",
+      "title": "预约与排期 / Scheduler And Booking Design",
+      "description": "时间槽选择 + 预约确认的交互。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "scheduler",
+        "and",
+        "booking",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/scheduler-and-booking-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/scheduler-and-booking-design"
+    },
+    {
+      "slug": "quiz-and-assessment-design",
+      "title": "问答 / 评测设计 / Quiz And Assessment Design",
+      "description": "用户答题 → 个性化结果的交互。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "quiz",
+        "and",
+        "assessment",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/quiz-and-assessment-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/quiz-and-assessment-design"
+    },
+    {
+      "slug": "product-configurator-design",
+      "title": "产品配置器 / Product Configurator Design",
+      "description": "让用户在多变体中配置购买的交互。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "product",
+        "configurator",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/product-configurator-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/product-configurator-design"
+    },
+    {
+      "slug": "onboarding-wizard-design",
+      "title": "引导向导 / Onboarding Wizard Design",
+      "description": "首次使用产品的 wizard 式引导。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "onboarding",
+        "wizard",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/onboarding-wizard-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/onboarding-wizard-design"
+    },
+    {
+      "slug": "multi-step-form-design",
+      "title": "多步骤表单 / Multi Step Form Design",
+      "description": "大型表单的分步、进度、保存设计。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "multi",
+        "step",
+        "form",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/multi-step-form-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/multi-step-form-design"
+    },
+    {
+      "slug": "interactive-product-tour",
+      "title": "交互式产品导览 / Interactive Product Tour",
+      "description": "新用户产品功能引导。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "interactive",
+        "product",
+        "tour"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/interactive-product-tour/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/interactive-product-tour"
+    },
+    {
+      "slug": "funnel-flow-architecture",
+      "title": "漏斗流程架构 / Funnel Flow Architecture",
+      "description": "多步骤转化漏斗的页面 + 状态设计。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "funnel",
+        "flow",
+        "architecture"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/funnel-flow-architecture/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/funnel-flow-architecture"
+    },
+    {
+      "slug": "comparison-tool-design",
+      "title": "对比工具设计 / Comparison Tool Design",
+      "description": "多产品 / 套餐对比表格的信息架构。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "comparison",
+        "tool",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/comparison-tool-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/comparison-tool-design"
+    },
+    {
+      "slug": "chatbot-flow-design",
+      "title": "聊天机器人流程 / Chatbot Flow Design",
+      "description": "对话式 UI 的状态、节点、回退、人工切换。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "chatbot",
+        "flow",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/chatbot-flow-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/chatbot-flow-design"
+    },
+    {
+      "slug": "calculator-design",
+      "title": "计算器设计 / Calculator Design",
+      "description": "引导输入参数 → 实时计算 → 行动的交互模式。",
+      "category": "interactive-patterns",
+      "tags": [
+        "growth-tooling",
+        "calculator",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/calculator-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/calculator-design"
+    },
+    {
+      "slug": "shopify-theme-architecture",
+      "title": "Shopify 主题架构(OS 2.0)",
+      "description": "用 OS 2.0 JSON-template 模式搭建可由商家编辑的独立站主题 ——\nlayout / sections / templates / snippets / config 的分工与最小骨架。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "shopify",
+        "liquid",
+        "theme",
+        "os2"
+      ],
+      "featured": false,
+      "author": "",
+      "updated": "2026-05-15",
+      "source": "",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/shopify-theme-architecture"
+    },
+    {
+      "slug": "pdp-copy",
+      "title": "产品详情页文案(PDP Copy)",
+      "description": "PDP 是独立站的转化收口 —— 写一份既能说服又不油腻的产品描述,\n结构、关键参数、信任证据、异议处理一气呵成。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "copywriting",
+        "pdp",
+        "conversion"
+      ],
+      "featured": false,
+      "author": "",
+      "updated": "2026-05-15",
+      "source": "",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/pdp-copy"
+    },
+    {
+      "slug": "logo-design",
+      "title": "Logo 设计 / Logo Design",
+      "description": "从概念到落版,含尺寸规范、单色 / 反白版本、最小可用尺寸。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "brand",
+        "logo",
+        "design"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/logo-design/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/logo-design"
+    },
+    {
+      "slug": "design-tokens",
+      "title": "独立站设计 Token",
+      "description": "把品牌视觉变成可执行的 CSS variables —— 色、字体、间距、半径、阴影,\n既给设计师参考,也给前端直接落地。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "design-system",
+        "css",
+        "tokens"
+      ],
+      "featured": false,
+      "author": "",
+      "updated": "2026-05-15",
+      "source": "",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/design-tokens"
+    },
+    {
+      "slug": "creative-direction",
+      "title": "创意方向 / Creative Direction",
+      "description": "在 brief 之上确立审美方向、参考、调性,带领设计师执行。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "strategy-and-discovery",
+        "creative",
+        "direction"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/creative-direction/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/creative-direction"
+    },
+    {
+      "slug": "creative-brief",
+      "title": "创意 Brief / Creative Brief",
+      "description": "把战略输入转译为可执行的创意工作 brief —— 目标、受众、信息、约束。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "strategy-and-discovery",
+        "creative",
+        "brief"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/creative-brief/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/creative-brief"
+    },
+    {
+      "slug": "brand-style-guide",
+      "title": "品牌规范手册 / Brand Style Guide",
+      "description": "给设计师 / 文案 / 合作方的最终参考:用法、规则、案例、反例。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "brand",
+        "style",
+        "guide"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/brand-style-guide/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/brand-style-guide"
+    },
+    {
+      "slug": "brand-ideation",
+      "title": "品牌创意发散 / Brand Ideation",
+      "description": "把 brand-discovery 的多个定位领地收敛到一个,生成品牌命名 / 视觉方向候选。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "brand",
+        "ideation"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/brand-ideation/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/brand-ideation"
+    },
+    {
+      "slug": "brand-archetype-system",
+      "title": "品牌原型系统 / Brand Archetype System",
+      "description": "用 12 个原型框架把品牌的人格化坐标定下来 —— 谁、为何、怎么说话。",
+      "category": "ecommerce-brand",
+      "tags": [
+        "brand",
+        "archetype",
+        "system"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/brand-archetype-system/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/brand-archetype-system"
+    },
+    {
+      "slug": "security-baseline",
+      "title": "安全基线 / Security Baseline",
+      "description": "Web 应用安全的最小完整检查清单 —— OWASP Top 10 + 头部 + 密钥。",
+      "category": "development",
+      "tags": [
+        "operations",
+        "security",
+        "baseline"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/security-baseline/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/security-baseline"
+    },
+    {
+      "slug": "qa-testing",
+      "title": "QA 测试 / Qa Testing",
+      "description": "功能 + 回归 + 可访问性测试矩阵。",
+      "category": "development",
+      "tags": [
+        "testing"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/qa-testing/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/qa-testing"
+    },
+    {
+      "slug": "monitoring-and-alerting",
+      "title": "监控与告警 / Monitoring And Alerting",
+      "description": "关键指标的可观测 + 告警阈值设计。",
+      "category": "development",
+      "tags": [
+        "operations",
+        "monitoring",
+        "and",
+        "alerting"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/monitoring-and-alerting/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/monitoring-and-alerting"
+    },
+    {
+      "slug": "integration-orchestrator",
+      "title": "集成编排 / Integration Orchestrator",
+      "description": "多个 SaaS / API 的集成与状态同步。",
+      "category": "development",
+      "tags": [
+        "product",
+        "integration",
+        "orchestrator"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/integration-orchestrator/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/integration-orchestrator"
+    },
+    {
+      "slug": "experimentation-platform-orchestrator",
+      "title": "实验平台编排 / Experimentation Platform Orchestrator",
+      "description": "把多个 A/B 平台 / 工具的实验流程串通。",
+      "category": "development",
+      "tags": [
+        "product",
+        "experimentation",
+        "platform",
+        "orchestrator"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/experimentation-platform-orchestrator/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/experimentation-platform-orchestrator"
+    },
+    {
+      "slug": "dependency-management",
+      "title": "依赖管理 / Dependency Management",
+      "description": "npm / pip / Go mod 依赖的版本、安全、升级策略。",
+      "category": "development",
+      "tags": [
+        "cross-cutting",
+        "dependency",
+        "management"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/dependency-management/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/dependency-management"
+    },
+    {
+      "slug": "data-warehouse-experimentation",
+      "title": "数据仓库实验 / Data Warehouse Experimentation",
+      "description": "在数仓里做事件 / 实验数据建模的工程范式。",
+      "category": "development",
+      "tags": [
+        "product",
+        "data",
+        "warehouse",
+        "experimentation"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/data-warehouse-experimentation/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/data-warehouse-experimentation"
+    },
+    {
+      "slug": "code-review-web",
+      "title": "Web 代码评审 / Code Review Web",
+      "description": "前端代码评审清单 —— 可读性、性能、安全、可访问性。",
+      "category": "development",
+      "tags": [
+        "development",
+        "code",
+        "review",
+        "web"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/code-review-web/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/code-review-web"
+    },
+    {
+      "slug": "backup-and-disaster-recovery",
+      "title": "备份与灾难恢复 / Backup And Disaster Recovery",
+      "description": "数据备份策略 + 演练 SOP —— RTO / RPO 定义、恢复测试。",
+      "category": "development",
+      "tags": [
+        "operations",
+        "backup",
+        "and",
+        "disaster",
+        "recovery"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/backup-and-disaster-recovery/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/backup-and-disaster-recovery"
+    },
+    {
+      "slug": "media-asset-management",
+      "title": "媒体资产管理 / Media Asset Management",
+      "description": "图片 / 视频 / 字体的命名、版本、CDN 策略。",
+      "category": "design",
+      "tags": [
+        "operations",
+        "media",
+        "asset",
+        "management"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/media-asset-management/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/media-asset-management"
+    },
+    {
+      "slug": "internationalization",
+      "title": "国际化 (i18n) / Internationalization",
+      "description": "多语言、文案变量、RTL、字体、地区合规。",
+      "category": "design",
+      "tags": [
+        "cross-cutting",
+        "internationalization"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/internationalization/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/internationalization"
+    },
+    {
+      "slug": "art-direction",
+      "title": "艺术指导 / Art Direction",
+      "description": "摄影 / 插画 / 视频的美学方向把控。",
+      "category": "design",
+      "tags": [
+        "design",
+        "art",
+        "direction"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/art-direction/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/art-direction"
+    },
+    {
+      "slug": "accessibility-audit",
+      "title": "可访问性审计 / Accessibility Audit",
+      "description": "WCAG 检查清单 + 修复优先级 —— 从颜色对比到键盘可达。",
+      "category": "design",
+      "tags": [
+        "development",
+        "accessibility",
+        "audit"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/accessibility-audit/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/accessibility-audit"
+    },
+    {
+      "slug": "pillar-content-architecture",
+      "title": "支柱内容架构 / Pillar Content Architecture",
+      "description": "围绕一个主题的内容生态(pillar + cluster)—— SEO 与内容生命周期的核心范式。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "pillar",
+        "architecture"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/pillar-content-architecture/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/pillar-content-architecture"
+    },
+    {
+      "slug": "long-form-content-frameworks",
+      "title": "长文框架 / Long Form Content Frameworks",
+      "description": "1000-5000 字长文的结构模板 —— 钩子、主张、论据、反方、结论。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "long",
+        "form",
+        "frameworks"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/long-form-content-frameworks/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/long-form-content-frameworks"
+    },
+    {
+      "slug": "editorial-qa",
+      "title": "编辑校验 / Editorial Qa",
+      "description": "上线前的内容质量门禁 —— 事实、署名、链接、SEO、合规。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "editorial"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/editorial-qa/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/editorial-qa"
+    },
+    {
+      "slug": "content-repurposing",
+      "title": "内容再利用 / Content Repurposing",
+      "description": "一份长文衍生出 5-10 种次级形态(短文、社媒、邮件、视频脚本)。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "repurposing"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-repurposing/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/content-repurposing"
+    },
+    {
+      "slug": "content-refresh-system",
+      "title": "内容刷新系统 / Content Refresh System",
+      "description": "老内容定期复检 + 翻新的 SOP —— 防止内容腐烂。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "refresh",
+        "system"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-refresh-system/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/content-refresh-system"
+    },
+    {
+      "slug": "content-migration",
+      "title": "内容迁移 / Content Migration",
+      "description": "把旧站 / 旧 CMS 内容迁到新平台,不丢 SEO、不破坏链接。",
+      "category": "content-creation",
+      "tags": [
+        "cross-cutting",
+        "content",
+        "migration"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-migration/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/content-migration"
+    },
+    {
+      "slug": "content-distribution",
+      "title": "内容分发 / Content Distribution",
+      "description": "把一篇内容拆成多渠道、多形态的发布矩阵。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "distribution"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-distribution/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/content-distribution"
+    },
+    {
+      "slug": "content-brief-authoring",
+      "title": "内容 Brief 撰写 / Content Brief Authoring",
+      "description": "在动手写之前先写好 brief —— 受众、目的、关键信息、参考。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "brief",
+        "authoring"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-brief-authoring/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/content-brief-authoring"
+    },
+    {
+      "slug": "content-and-copy",
+      "title": "内容与文案 / Content And Copy",
+      "description": "跨页面、跨触点的文案系统化方法 —— 风格、节奏、版本控制。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "and",
+        "copy"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/content-and-copy/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/content-and-copy"
+    },
+    {
+      "slug": "ai-content-collaboration",
+      "title": "AI 内容协作 / Ai Content Collaboration",
+      "description": "如何与 AI 协同创作长文 / 营销内容 —— 既保留作者声音又利用模型能力。",
+      "category": "content-creation",
+      "tags": [
+        "content",
+        "collaboration"
+      ],
+      "featured": false,
+      "author": "rampstackco",
+      "updated": "2026-05-15",
+      "source": "https://github.com/rampstackco/claude-skills/blob/main/skills/ai-content-collaboration/SKILL.md",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/ai-content-collaboration"
+    }
+  ]
+}
