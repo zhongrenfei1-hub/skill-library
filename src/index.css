@@ -131,3 +131,44 @@ html[data-theme="dark"] {
   .prose-skill strong { @apply font-medium text-ink; }
   .prose-skill img { @apply rounded my-6; }
 }
+
+/* ----- Print styles -----
+   长 skill 是为读而生 —— 应该能干净地打印 / 存 PDF。
+   chrome → print → save as PDF 默认 12pt / A4 / 0.5in 边距,效果应当类似纸质杂志。 */
+@media print {
+  .site-header,
+  .site-footer,
+  .btn,
+  .pill,
+  .pill-active,
+  nav[aria-label="目录"],
+  nav[aria-label="主导航"],
+  button {
+    display: none !important;
+  }
+  html, body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+  }
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+  }
+  .container-wide,
+  .container-prose {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  .prose-skill pre {
+    background: #f3f3f3 !important;
+    color: black !important;
+    page-break-inside: avoid;
+  }
+  .prose-skill pre code {
+    color: black !important;
+  }
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+}
