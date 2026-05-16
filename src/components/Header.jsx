@@ -1,5 +1,6 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import ThemeToggle from './ThemeToggle.jsx';
 
 const navItems = [
   { to: '/categories', label: '分类' },
@@ -60,6 +61,7 @@ export default function Header() {
             <span>搜索</span>
             <kbd className="font-mono text-xs">⌘K</kbd>
           </button>
+          <ThemeToggle />
           <form onSubmit={submitSearch} className="hidden">
             <input value={q} onChange={(e) => setQ(e.target.value)} />
           </form>

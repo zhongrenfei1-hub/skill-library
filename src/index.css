@@ -2,15 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ----- Theme variables -----
+   data-theme on <html> swaps these. Tailwind utility classes still
+   reference token names like `bg-cream-100` — to keep them tied to the
+   theme, we override the underlying CSS color via custom properties
+   defined here, then alias tailwind utilities (background-color etc) to
+   them in the body / utility overrides below. */
+
+:root,
+html[data-theme="light"] {
+  --c-bg:         #F6F2E8;
+  --c-bg-2:       #FBFAF6;
+  --c-bg-3:       #EFE9D8;
+  --c-line:       #D8D2C4;
+  --c-ink:        #1A1815;
+  --c-ink-soft:   #3A3631;
+  --c-ink-mute:   #6B6660;
+  --c-clay:       #CC785C;
+  --c-clay-hover: #B8634A;
+}
+html[data-theme="sepia"] {
+  --c-bg:         #ECE3D0;
+  --c-bg-2:       #F3ECDA;
+  --c-bg-3:       #DACFB5;
+  --c-line:       #C7B999;
+  --c-ink:        #2A1F15;
+  --c-ink-soft:   #4A3C2C;
+  --c-ink-mute:   #76654D;
+  --c-clay:       #8B4A26;
+  --c-clay-hover: #6F3818;
+}
+html[data-theme="dark"] {
+  --c-bg:         #14130F;
+  --c-bg-2:       #1C1A15;
+  --c-bg-3:       #25221C;
+  --c-line:       #36322B;
+  --c-ink:        #EAE4D5;
+  --c-ink-soft:   #C5BFB0;
+  --c-ink-mute:   #8B867A;
+  --c-clay:       #E0916F;
+  --c-clay-hover: #F0AB8A;
+}
+
+/* Map tailwind theme utility classes to CSS vars (only the ones we use heavily).
+   Less performant than pure tailwind but keeps existing markup unchanged. */
+@layer utilities {
+  .bg-cream-100 { background-color: var(--c-bg) !important; }
+  .bg-cream-50  { background-color: var(--c-bg-2) !important; }
+  .bg-cream-200 { background-color: var(--c-bg-3) !important; }
+  .text-ink     { color: var(--c-ink) !important; }
+  .text-ink-soft{ color: var(--c-ink-soft) !important; }
+  .text-ink-mute{ color: var(--c-ink-mute) !important; }
+  .border-ink-line { border-color: var(--c-line) !important; }
+  .border-ink   { border-color: var(--c-ink) !important; }
+  .bg-ink       { background-color: var(--c-ink) !important; }
+  .text-clay    { color: var(--c-clay) !important; }
+  .bg-clay      { background-color: var(--c-clay) !important; }
+}
+
 @layer base {
   html { scroll-behavior: smooth; }
   body {
-    @apply bg-cream-100 text-ink font-sans antialiased;
+    background-color: var(--c-bg);
+    color: var(--c-ink);
+    @apply font-sans antialiased;
     font-feature-settings: 'ss01', 'cv11';
+    transition: background-color .2s ease-out, color .2s ease-out;
   }
-  h1, h2, h3 { font-family: 'Source Serif 4', 'Noto Serif SC', ui-serif, Georgia, serif; @apply text-ink; }
-  /* Selection */
-  ::selection { @apply bg-clay text-cream-100; }
+  h1, h2, h3 { font-family: 'Source Serif 4', 'Noto Serif SC', ui-serif, Georgia, serif; color: var(--c-ink); }
+  ::selection { background: var(--c-clay); color: var(--c-bg); }
 }
 
 @layer components {
