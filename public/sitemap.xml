@@ -31,6 +31,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://zhongrenfei1-hub.github.io/skill-library/categories/development</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://zhongrenfei1-hub.github.io/skill-library/categories/ux-research</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -66,11 +71,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://zhongrenfei1-hub.github.io/skill-library/categories/development</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://zhongrenfei1-hub.github.io/skill-library/categories/design</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -79,6 +79,12 @@
     <loc>https://zhongrenfei1-hub.github.io/skill-library/categories/content-creation</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zhongrenfei1-hub.github.io/skill-library/skills/scrapling</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-05-19</lastmod>
   </url>
   <url>
     <loc>https://zhongrenfei1-hub.github.io/skill-library/skills/ux-research</loc>

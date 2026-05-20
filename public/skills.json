@@ -1,9 +1,10 @@
 {
   "meta": {
     "site": "https://zhongrenfei1-hub.github.io/skill-library",
-    "total": 102,
-    "generated": "2026-05-16T05:03:25.621Z",
+    "total": 103,
+    "generated": "2026-05-20T07:40:27.596Z",
     "categories": [
+      "development",
       "ux-research",
       "seo",
       "product-strategy",
@@ -11,13 +12,31 @@
       "marketing",
       "interactive-patterns",
       "ecommerce-brand",
-      "development",
       "design",
       "content-creation"
     ],
     "license": "MIT (skills text adapted from rampstackco/claude-skills, MIT)"
   },
   "skills": [
+    {
+      "slug": "scrapling",
+      "title": "Scrapling · 适应性 Python 爬虫",
+      "description": "开源 Python 爬虫框架(BSD-3-Clause)—— 元素位置 / 属性变了也能用相似度评分继续命中。\n内置 3 套 fetcher(HTTP / Playwright / 隐身)、Cloudflare Turnstile 反检测、MCP server 直接给 Claude 用。",
+      "category": "development",
+      "tags": [
+        "scraping",
+        "python",
+        "anti-bot",
+        "playwright",
+        "mcp",
+        "automation"
+      ],
+      "featured": true,
+      "author": "D4Vinci (Karim Shoair)",
+      "updated": "2026-05-19",
+      "source": "https://github.com/D4Vinci/Scrapling",
+      "url": "https://zhongrenfei1-hub.github.io/skill-library/skills/scrapling"
+    },
     {
       "slug": "ux-research",
       "title": "用户研究 / Ux Research",
